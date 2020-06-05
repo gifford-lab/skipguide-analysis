@@ -20,6 +20,8 @@ If you opt to not use the pre-computed files, the raw sequencing data needs to b
 If you opt to use the pre-computed files, the raw sequencing data is not necessary. Download the pre-computed files from TBA, extract, and replace the [`cache`](cache) directory with the extracted `cache` directory. Running all the notebooks should then take less than half an hour.
 
 # Usage
+Note that the output images and tables ([`output` directory](output)) are already uploaded to this repository for your convenience. You can also open the provided notebooks and view the results. This section details how you can run the notebooks from scratch.
+
 See [Data Files](#data-files) section to include the necessary data files.
 
 If pre-computed files are not used, modify the `NUM_PROCESSES` variable in [config.py](src/config.py) to specify the number of cores for multiprocessing.
