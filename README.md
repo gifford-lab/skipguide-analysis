@@ -14,10 +14,10 @@ Activate the environment by:
 The provided Jupyter notebooks (see [Usage](#usage) section) can produce all the results starting from the [raw sequencing data](#raw-data-files). However, computations can take a very long time, on the order of hours or days depending on computational resources. The notebooks are configured to skip certain long computations if pre-computed files are available. We recommend you instead download the [pre-computed files](#pre-computed-files) before running the notebooks.
 
 ### Raw Data Files
-If you opt to not use the pre-computed files, the raw sequencing data needs to be available. Download them from [here](), extract, and place the `*.fastq` files in the [`data/reads`](data/reads) directory before running the provided notebooks. Alternatively, the same `*.fastq` files are available on NCBI SRA, BioProject accession [PRJNA647416](https://dataview.ncbi.nlm.nih.gov/object/PRJNA647416?reviewer=7desib600hdd588j8s5kias2b1). Running all the notebooks may take on the order of hours or days depending on computational resources.
+If you opt to not use the pre-computed files, the raw sequencing data needs to be available. Download them from [here]() (`archive.tar.bz2`), extract, and place the `*.fastq` files in the [`data/reads`](data/reads) directory before running the provided notebooks. Alternatively, the same `*.fastq` files are available on NCBI SRA, BioProject accession [PRJNA647416](https://dataview.ncbi.nlm.nih.gov/object/PRJNA647416?reviewer=7desib600hdd588j8s5kias2b1). Running all the notebooks may take on the order of hours or days depending on computational resources.
 
 ### Pre-Computed Files
-If you opt to use the pre-computed files, the raw sequencing data is not necessary. Download the pre-computed files from [here](), extract, and replace the [`cache`](cache) directory with the extracted `cache` directory. Running all the notebooks should then take less than half an hour.
+If you opt to use the pre-computed files, the raw sequencing data is not necessary. Download the pre-computed files from [here]() (`cache.tar.xz`), extract, and replace the [`cache`](cache) directory with the extracted `cache` directory. Running all the notebooks should then take less than half an hour.
 
 ## Usage
 You can open the provided Jupyter notebooks under [`src`](src) and view the outputs. This section details how you can run the notebooks from scratch.
