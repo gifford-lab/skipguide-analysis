@@ -35,8 +35,10 @@ Run the provided notebooks under [`src`](src) in the following order:
 2. [Barcode_Sequence_Lookup_Tables.ipynb](src/Barcode_Sequence_Lookup_Tables.ipynb)
 3. [datA_Characterize_Sequences_Indels.ipynb](src/datA_Characterize_Sequences_Indels.ipynb)
 4. [inDelphi_Evaluation.ipynb](src/inDelphi_Evaluation.ipynb)
-5. [datB_Characterize_Skipping.ipynb](src/datB_Characterize_Skipping.ipynb)
-6. [MMSplice_Predict_Skipping.ipynb](src/MMSplice_Predict_Skipping.ipynb)
-7. [wMMSplice_SkipGuide_Evaluation.ipynb](src/wMMSplice_SkipGuide_Evaluation.ipynb)
+5. [inDelphi_Check_Data_Leakage.ipynb](src/inDelphi_Check_Data_Leakage.ipynb)
+6. [datB_Characterize_Skipping.ipynb](src/datB_Characterize_Skipping.ipynb)
+7. [SpliceAI_Predict_Skipping.ipynb](src/SpliceAI_Predict_Skipping.ipynb)
+8. [MMSplice_Predict_Skipping.ipynb](src/MMSplice_Predict_Skipping.ipynb)
+9. [MetaSplice_SkipGuide_Evaluation.ipynb](src/MetaSplice_SkipGuide_Evaluation.ipynb)
 
 Inspect the comments and markdown in the notebooks for more context.
