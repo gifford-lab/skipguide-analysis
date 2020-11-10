@@ -100,7 +100,6 @@ GT_INDEL_DIST_MAP = 'gt_indel_dist_map'
 PREDICTED_GT_INDEL_DIST_MAP = 'predicted_gt_indel_dist_map'
 
 
-
 BC_TID_SPLICEIDX_PRECAS_MAP = 'bc_tid_spliceidx_precas_map'
 BC_TID_SPLICEIDX_POSTCAS_MAP = 'bc_tid_spliceidx_postcas_map'
 
@@ -109,9 +108,15 @@ INDEL_SPLICE_POSTCAS_COUNT_MAP = 'indel_splice_postcas_count_map'
 GT_SPLICE_COUNT_MAP = 'gt_splice_count_map'
 GT_PRECAS_SPLICE_COUNT_MAP = 'gt_precas_splice_count_map'
 
+DAT_A_INDELPHI_SEQUENCE_IDENTITY = 'datA_indelphi_sequence_identity'
 
+SPLICEAI_OUTPUT_DIR = os.path.join(CACHE_DIR, 'spliceai_out')
+SPLICEAI_PRECAS_PREDS_PATH = os.path.join(SPLICEAI_OUTPUT_DIR, 'spliceai_precas_preds.npy')
+SPLICEAI_POSTCAS_PREDS_PATH = os.path.join(SPLICEAI_OUTPUT_DIR, 'spliceai_postcas_preds.npy')
+SPLICEAI_GT_REPAIR_PREDS = os.path.join(SPLICEAI_OUTPUT_DIR, 'spliceai_gt_indels') 
 
 MMSPLICE_OUTPUT_DIR = os.path.join(CACHE_DIR, 'mmsplice_out')
 MMSPLICE_PRECAS_DF_PATH = os.path.join(MMSPLICE_OUTPUT_DIR, 'mmsplice_precas_df.csv')
 MMSPLICE_POSTCAS_DF_PATH = os.path.join(MMSPLICE_OUTPUT_DIR, 'mmsplice_postcas_df.csv')
-MMSPLICE_GT_DF_DIR = os.path.join(MMSPLICE_OUTPUT_DIR, 'mmsplice_gt_indels') 
+MMSPLICE_GT_DF_DIR = os.path.join(MMSPLICE_OUTPUT_DIR, 'mmsplice_gt_indels')
+MMSPLICE_GT_REPAIR_PREDS = os.path.join(MMSPLICE_OUTPUT_DIR, 'mmsplice_gt_indels') 

@@ -51,7 +51,7 @@ def sanitize_postcas_unspliced(seq, match_seq=None):
     return seq
 
 def sanitize(bc_unspliced_postcas_map):
-    for bc in tqdm(bc_unspliced_postcas_map):
+    for bc in bc_unspliced_postcas_map:
         unsanitized = bc_unspliced_postcas_map[bc]
         bc_unspliced_postcas_map[bc] = collections.defaultdict(int)
         for og in unsanitized:

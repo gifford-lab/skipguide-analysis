@@ -141,3 +141,10 @@ cython_debug/
 /cache/**
 !/cache/**/
 !/cache/**/.gitkeep
+
+# Retain output directory structure, but ignore all files
+/output/**
+!/output/**/
+!/output/**/.gitkeep
+
+
