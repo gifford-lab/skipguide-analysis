@@ -1,5 +1,5 @@
 # SkipGuide Analysis
-The code used for the analysis and production of the results described in the paper **TBA**.
+The code used for the analysis and production of the results described in the paper [Machine learning based CRISPR gRNA design for therapeutic exon skipping](https://doi.org/10.1371/journal.pcbi.1008605).
 
 ## Dependencies
 The analysis was performed using Python 3.7.5 and Jupyter. The dependencies are listed in [environment.yml](environment.yml). We recommend using the conda package manager from [Anaconda Python](https://www.anaconda.com/distribution/) to create an environment for running the analysis:
